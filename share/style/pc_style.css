@@ -2,7 +2,6 @@ body{ font-family:"PingFangSC-Regular","Microsoft YaHei", Arial, "sans-serif"; b
 
 .top{width: 100%; }
 .top .top-content{ width: 1440px; margin:0 auto; height: 100%;}
-.top .top-content .bg{height: 694px;background: url("../images/pc_bg1.png")/*tpa=http://mf.sjkj777.cn/share/images/pc_bg1.png*/ center right no-repeat;background-size: 55%;width: 1000px;margin: 0 auto}
 .top .top-content .bg h1{font-size: 18px; height: 28px; line-height: 28px; padding-left:41px;background-size: contain; font-weight: 400;color:#0F0F0F;  }
 .t-body{width: 1204px; margin: 0 auto;}
 .t-info .c-left{ width: 500px; height: 493px;  float: left; margin-right:187px;  }
