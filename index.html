@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset=utf-8>
+    <title>万能控制台</title>
+    <link rel="stylesheet" type="text/css" href="share/style/pc_style.css">
+</head>
+<body>
+
+
+<div class="top">
+    <div class="top-content">
+        <div class="bg">
+            <h1>万能控制台</h1>
+            <div class="t-body">
+                <div class="t-info">
+                    <div class="c-left">
+                        <dl>
+                            <dd>控制台在手，万事可做</dd>
+                        </dl>
+                        <ul>
+                            <li class="win"><a href="./万能控制台.exe"><img src="share/images/windows-default.png">Windows下载</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="f-con">
+        <div class="f-line">
+            <div class="line"></div>
+            <p>客户端下载</p>
+            <div class="line"></div>
+        </div>
+        <div class="downlist">
+            <a href="./万能控制台.exe">
+                <dl class="b-win">
+                    <dt><img src="share/images/windows-default.png"></dt>
+                    <dd>Windows下载</dd>
+                </dl>
+            </a>
+        </div>
+    </div>
+    
+</div>
+<div class="copy-right">
+    Adpro版权所有
+</div>
+<script>
+    window.onload = function() {
+        var timer = null;
+        var timerw = null;
+        var aCode = document.getElementById("a-code-con");
+        var aApp = document.getElementById("a-codeapp");
+        var iCode = document.getElementById("i-code-con");
+        var iApp = document.getElementById("i-codeapp");
+        aCode.onmouseover = function() {
+            clearTimeout(timer);
+            aApp.style.display = "block";
+        };
+        aCode.onmouseout = function() {
+            timer=setTimeout(function(){
+                aApp.style.display = "none";
+            },100)
+        };
+
+        iCode.onmouseover = function() {
+            clearTimeout(timerw);
+            iApp.style.display = "block";
+        };
+        iCode.onmouseout = function() {
+            timerw=setTimeout(function(){
+                iApp.style.display = "none";
+            },100)
+        };
+    }
+</script>
+</body>
+</html>
